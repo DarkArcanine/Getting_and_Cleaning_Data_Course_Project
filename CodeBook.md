@@ -122,1069 +122,1069 @@ For the the clean_dataset_mean_only dataframe and the clean_dataset_mean_only.TX
 
 
 
-Variable Name																	Activity
-Variable Description															Each volunteer performed six activities. The Activity variable captures these 6 activities in a factor variable with 6 levels; each level is labeled per the activity performed.
-Variable Class in R																Factor
-Units																			None (Adimensional)
-Variable Range																	Six levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+	Variable Name																	Activity
+	Variable Description															Each volunteer performed six activities. The Activity variable captures these 6 activities in a factor variable with 6 levels; each level is labeled per the activity performed.
+	Variable Class in R																Factor
+	Units																			None (Adimensional)
+	Variable Range																	Six levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 
 
 
 
 
-Variable Name																	TimeBodyAccMeanX
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeBodyAccMeanX
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeBodyAccMeanY
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeBodyAccMeanY
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeBodyAccMeanZ
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeBodyAccMeanZ
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeBodyAccStDevX
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeBodyAccStDevX
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeBodyAccStDevY
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeBodyAccStDevY
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeBodyAccStDevZ
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeBodyAccStDevZ
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeGravityAccMeanX
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										GRAVITATIONAL
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeGravityAccMeanX
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										GRAVITATIONAL
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeGravityAccMeanY
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										GRAVITATIONAL
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeGravityAccMeanY
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										GRAVITATIONAL
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeGravityAccMeanZ
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										GRAVITATIONAL
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeGravityAccMeanZ
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										GRAVITATIONAL
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeGravityAccStDevX
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										GRAVITATIONAL
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeGravityAccStDevX
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										GRAVITATIONAL
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeGravityAccStDevY
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										GRAVITATIONAL
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeGravityAccStDevY
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										GRAVITATIONAL
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeGravityAccStDevZ
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										GRAVITATIONAL
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeGravityAccStDevZ
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										GRAVITATIONAL
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeBodyAccJerkMeanX
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeBodyAccJerkMeanX
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeBodyAccJerkMeanY
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeBodyAccJerkMeanY
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeBodyAccJerkMeanZ
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeBodyAccJerkMeanZ
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeBodyAccJerkStDevX
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeBodyAccJerkStDevX
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeBodyAccJerkStDevY
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeBodyAccJerkStDevY
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeBodyAccJerkStDevZ
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeBodyAccJerkStDevZ
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeBodyGyroMeanX
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeBodyGyroMeanX
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeBodyGyroMeanY
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeBodyGyroMeanY
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeBodyGyroMeanZ
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeBodyGyroMeanZ
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeBodyGyroStDevX
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeBodyGyroStDevX
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeBodyGyroStDevY
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeBodyGyroStDevY
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeBodyGyroStDevZ
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeBodyGyroStDevZ
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeBodyGyroJerkMeanX
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeBodyGyroJerkMeanX
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeBodyGyroJerkMeanY
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeBodyGyroJerkMeanY
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeBodyGyroJerkMeanZ
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeBodyGyroJerkMeanZ
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeBodyGyroJerkStDevX
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	TimeBodyGyroJerkStDevX
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	TimeBodyGyroJerkStDevY
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	TimeBodyGyroJerkStDevY
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	TimeBodyGyroJerkStDevZ
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	TimeBodyGyroJerkStDevZ
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	TimeBodyAccMagMean
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeBodyAccMagMean
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	TimeBodyAccMagStDev
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeBodyAccMagStDev
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	TimeGravityAccMagMean
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										GRAVITATIONAL
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeGravityAccMagMean
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										GRAVITATIONAL
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	TimeGravityAccMagStDev
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										GRAVITATIONAL
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeGravityAccMagStDev
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										GRAVITATIONAL
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	TimeBodyAccJerkMagMean
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeBodyAccJerkMagMean
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	TimeBodyAccJerkMagStDev
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeBodyAccJerkMagStDev
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	TimeBodyGyroMagMean
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeBodyGyroMagMean
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	TimeBodyGyroMagStDev
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeBodyGyroMagStDev
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	TimeBodyGyroJerkMagMean
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeBodyGyroJerkMagMean
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	TimeBodyGyroJerkMagStDev
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														TIME
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	TimeBodyGyroJerkMagStDev
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														TIME
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	FrequencyBodyAccMeanX
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	FrequencyBodyAccMeanX
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	FrequencyBodyAccMeanY
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	FrequencyBodyAccMeanY
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	FrequencyBodyAccMeanZ
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	FrequencyBodyAccMeanZ
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	FrequencyBodyAccStDevX
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	FrequencyBodyAccStDevX
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	FrequencyBodyAccStDevY
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	FrequencyBodyAccStDevY
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	FrequencyBodyAccStDevZ
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	FrequencyBodyAccStDevZ
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	FrequencyBodyAccJerkMeanX
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	FrequencyBodyAccJerkMeanX
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	FrequencyBodyAccJerkMeanY
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	FrequencyBodyAccJerkMeanY
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	FrequencyBodyAccJerkMeanZ
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	FrequencyBodyAccJerkMeanZ
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	FrequencyBodyAccJerkStDevX
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	FrequencyBodyAccJerkStDevX
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	FrequencyBodyAccJerkStDevY
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	FrequencyBodyAccJerkStDevY
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	FrequencyBodyAccJerkStDevZ
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	FrequencyBodyAccJerkStDevZ
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	FrequencyBodyGyroMeanX
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	FrequencyBodyGyroMeanX
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	FrequencyBodyGyroMeanY
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	FrequencyBodyGyroMeanY
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	FrequencyBodyGyroMeanZ
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	FrequencyBodyGyroMeanZ
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	FrequencyBodyGyroStDevX
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			X
+	Variable Name																	FrequencyBodyGyroStDevX
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			X
 
 
 
 
-Variable Name																	FrequencyBodyGyroStDevY
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Y
+	Variable Name																	FrequencyBodyGyroStDevY
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Y
 
 
 
 
-Variable Name																	FrequencyBodyGyroStDevZ
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										NO
-Axis																			Z
+	Variable Name																	FrequencyBodyGyroStDevZ
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										NO
+	Axis																			Z
 
 
 
 
-Variable Name																	FrequencyBodyAccMagMean
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	FrequencyBodyAccMagMean
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
 
-Variable Name																	FrequencyBodyAccMagStDev
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
-
-
-
-
-Variable Name																	FrequencyBodyAccJerkMagMean
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
-
-
-
-
-Variable Name																	FrequencyBodyAccJerkMagStDev
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
-For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
-
-
-
-
-Variable Name																	FrequencyBodyGyroMagMean
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
-
-
-
-
-Variable Name																	FrequencyBodyGyroMagStDev
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
-
-
-
-
-Variable Name																	FrequencyBodyGyroJerkMagMean
-Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
-
-
-
-
-Variable Name																	FrequencyBodyGyroJerkMagStDev
-Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
-Variable Class in R																Numeric
-Units																			None (Adimensional)
-Variable Range																	[-1,1]
-Domain (Time or Frequency)														FREQUENCY
-Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
-Motion component (Gravitational or Body)										BODY
-For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
-For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
-Magnitude using Euclidean norm calculated?										YES
-Axis																			<NA>
+	Variable Name																	FrequencyBodyAccMagStDev
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		NO
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
+
+
+
+
+	Variable Name																	FrequencyBodyAccJerkMagMean
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
+
+
+
+
+	Variable Name																	FrequencyBodyAccJerkMagStDev
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								ACCELEROMETER
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		YES
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					<NA>
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
+
+
+
+
+	Variable Name																	FrequencyBodyGyroMagMean
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
+
+
+
+
+	Variable Name																	FrequencyBodyGyroMagStDev
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					NO
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
+
+
+
+
+	Variable Name																	FrequencyBodyGyroJerkMagMean
+	Variable Description															Normalized AVERAGE data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
+
+
+
+
+	Variable Name																	FrequencyBodyGyroJerkMagStDev
+	Variable Description															Normalized STANDARD DEVIATION data coming from the sensor and motion component indicated in the fields <Sensor signal origin (Accelerometer or Gyroscope)> and <Motion component (Gravitational or Body)>; the signal domain is indicated in the field <Domain (Time or Frequency)>. This signal may have been derived to obtain its Jerk; if the signal was derived, it will be indicated in the field <For Accelerometer signal only - Body linear acceleration derived (Jerk)?	> and <For Gyroscope  signal only - Angular velocity derived (Jerk)> (depending on the sensor the data came from). The axis for the signal is indicated in <Axis>. Note: <NA> values mean NOT APPLICABLE
+	Variable Class in R																Numeric
+	Units																			None (Adimensional)
+	Variable Range																	[-1,1]
+	Domain (Time or Frequency)														FREQUENCY
+	Sensor signal origin (Accelerometer or Gyroscope)								GYROSCOPE
+	Motion component (Gravitational or Body)										BODY
+	For Accelerometer signal only - Body linear acceleration derived (Jerk)?		<NA>
+	For Gyroscope  signal only - Angular velocity derived (Jerk)					YES
+	Magnitude using Euclidean norm calculated?										YES
+	Axis																			<NA>
 
 
 
