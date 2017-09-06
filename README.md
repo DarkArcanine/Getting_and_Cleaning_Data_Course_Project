@@ -1,4 +1,4 @@
-PLEASE DOWNLOAD THIS FILE TO YOUR COMPUTER AS IT DOES NOT DISPLAY WELL IN GITHUB'S PREVIEW. 
+*** PLEASE DOWNLOAD THIS FILE TO YOUR COMPUTER AS IT DOES NOT DISPLAY WELL IN GITHUB'S PREVIEW. USE NOTEPAD++ TO VIEW FILE ***
 
 This README file explains the files included in this repo:
 CodeBook.md 						- This file describes the variable, the data, and every transformation performed to clean up the data. 

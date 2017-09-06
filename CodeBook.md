@@ -1,7 +1,7 @@
 ** CODEBOOK **
 By Victor Ceron
 
-*** PLEASE DOWNLOAD THIS FILE TO YOUR COMPUTER AS IT DOES NOT DISPLAY WELL IN GITHUB'S PREVIEW.  ***
+*** PLEASE DOWNLOAD THIS FILE TO YOUR COMPUTER AS IT DOES NOT DISPLAY WELL IN GITHUB'S PREVIEW. USE NOTEPAD++ TO VIEW FILE ***
 
 The information referred below was generated in R Studio version 1.0.143 using Windows 10 and R version 3.4.1. 
 
