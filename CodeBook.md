@@ -35,10 +35,10 @@ This codebook includes:
 			1. Using the recently created clean_dataset_mean_std_only, the script identifies the columns in the clean_dataset_mean_std_only dataframe for which their column names do not include "Mean", without including the "Subject" and "Activity" columns. 
 			2. The script filters out the identified columns from step n)1 and assigns this new dataframe to clean_dataset_mean_only as a global dataframe to prevent the dataframe from being destroyed after the function is completed. 
 			3. The column names were already renamed to better describe the variable names in step m)3.
-		o) Both the clean_dataset_mean_std_only  and clean_dataset_mean_only dataframes as exported to CSV files using their dataframe names. 
-		p) The final result is two dataframes and two CSV files:
-			1. The clean_dataset_mean_std_only dataframe and the clean_dataset_mean_std_only.csv file include the measurements on the mean and standard deviation for each measurement. 
-			2. The clean_dataset_mean_only dataframe and the clean_dataset_mean_only.csv file include the measurements on only the mean  for each measurement. 
+		o) Both the clean_dataset_mean_std_only  and clean_dataset_mean_only dataframes as exported to TXT files using their dataframe names. 
+		p) The final result is two dataframes and two TXT files:
+			1. The clean_dataset_mean_std_only dataframe and the clean_dataset_mean_std_only.TXT file include the measurements on the mean and standard deviation for each measurement. 
+			2. The clean_dataset_mean_only dataframe and the clean_dataset_mean_only.TXT file include the measurements on only the mean  for each measurement. 
 			
 Note 1: The Inertial signal files were not imported as they did not contain useful data for this exercise.
 Note 2: The angle data was discarded as they were not truly mean data. They refer to mean data but they were not mean angles themselves.  		
@@ -47,8 +47,8 @@ Note 2: The angle data was discarded as they were not truly mean data. They refe
 
 ** Description of variables and data **
 
-The description of variables and data below apply to the clean_dataset_mean_std_only dataframe and the clean_dataset_mean_std_only.csv file, as every variable is present in these datasets.
-For the the clean_dataset_mean_only dataframe and the clean_dataset_mean_only.csv file, the variables containing "StDev" do not apply as these variables were discarded.  
+The description of variables and data below apply to the clean_dataset_mean_std_only dataframe and the clean_dataset_mean_std_only.TXT file, as every variable is present in these datasets.
+For the the clean_dataset_mean_only dataframe and the clean_dataset_mean_only.TXT file, the variables containing "StDev" do not apply as these variables were discarded.  
 
 
 

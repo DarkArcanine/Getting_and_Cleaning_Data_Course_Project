@@ -1,6 +1,6 @@
 run_analysis <- function() 
 {
-  ## if  local file of zip file does not exist in directory, it downloads file from the internet and stores as file "FUCI HAR Dataset.zip" in <R's workdirectory>
+  ## if local file of zip file does not exist in directory, it downloads file from the internet and stores as file "FUCI HAR Dataset.zip" in <R's workdirectory>
   localfile="FUCI HAR Dataset.zip"
   
   if (!file.exists(localfile))
@@ -112,14 +112,14 @@ run_analysis <- function()
 	clean_dataset_mean_only<<-clean_dataset_mean_only	
   print("Data frame clean_dataset_mean_std_only and clean_dataset_mean_only created")
 		
-	## both datasets are saved in csv files
-	output_file_1<-"clean_dataset_mean_std_only.csv"
-	output_file_2<-"clean_dataset_mean_only.csv"
+	## both datasets are saved in TXT files
+	output_file_1<-"clean_dataset_mean_std_only.txt"
+	output_file_2<-"clean_dataset_mean_only.txt"
 	
-	print(paste("Creating CSV files, ",output_file_1," and ", output_file_1," in working directory. These files contain the clean_dataset_mean_std_only and clean_dataset_mean_only dataframes...",sep=""))
+	print(paste("Creating TXT files, ",output_file_1," and ", output_file_1," in working directory. These files contain the clean_dataset_mean_std_only and clean_dataset_mean_only dataframes...",sep=""))
 	if (!file.exists(output_file_1))
 	{
-    write.csv(clean_dataset_mean_std_only, file = output_file_1,row.names=FALSE)
+    write.table(clean_dataset_mean_std_only, file = output_file_1,row.names=FALSE)
 	  print(paste("File ",output_file_1, " created in working directory", sep=""))
 	}
 	else
@@ -128,7 +128,7 @@ run_analysis <- function()
 	}
 	if (!file.exists(output_file_2))
 	{	
-	  write.csv(clean_dataset_mean_only, file = output_file_2,row.names=FALSE)
+	  write.table(clean_dataset_mean_only, file = output_file_2,row.names=FALSE)
 	  print(paste("File ",output_file_2, " created in working directory", sep=""))
 	}
 	else
